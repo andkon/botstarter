@@ -15,6 +15,11 @@ django-environ==0.4.0
 whitenoise==3.2
 {%- endif %}
 
+# Bot stuff
+twilio==5.4.0
+{% if cookiecutter.use_wit == 'y' -%}
+wit==3.5
+{%- endif %}
 
 # Forms
 django-braces==1.9.0
@@ -55,3 +60,5 @@ celery==3.1.23
 {% endif %}
 
 # Your custom requirements go here
+djangorestframework==3.3.3
+requests==2.10.0
