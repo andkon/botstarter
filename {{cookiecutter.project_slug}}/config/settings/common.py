@@ -29,6 +29,7 @@ DJANGO_APPS = (
     'django.contrib.staticfiles',
 
     'rest_framework',
+    'bot',
 
     # Useful template tags:
     # 'django.contrib.humanize',
